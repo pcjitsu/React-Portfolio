@@ -4,6 +4,7 @@ import { Portfolio } from './pages/Portfolio'
 import {Resume} from './pages/resume'
 import { Contact } from './pages/contact'
 import { Navbar } from './Components/Navbar'
+import { Footer } from './Components/Footer'
 
 
 function App() {
@@ -29,6 +30,7 @@ const onPageChange=()=> {
       <div>
 <Navbar setPage={setPage}/>
 {onPageChange()}
+<Footer/>
       </div>
   )
 }
