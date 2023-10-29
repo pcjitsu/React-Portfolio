@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Project } from '../Components/Project';
 
 const projects = [
   {
@@ -52,6 +52,9 @@ const projects = [
 
 export const Portfolio = () => {
   return (
+    <div>
     <div>Portfolio</div>
+    <Project projects={projects} />
+    </div>
   )
-}
+};
