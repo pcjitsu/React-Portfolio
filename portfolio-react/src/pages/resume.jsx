@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-const Resume = () => {
+export const Resume = () => {
   return (
     <div>
       <h2>EDUCATION</h2>
@@ -47,4 +47,4 @@ const Resume = () => {
   );
 };
 
-export default Resume;
+
