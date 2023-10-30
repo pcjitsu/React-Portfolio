@@ -5,7 +5,7 @@ const projects = [
   {
     id:0,
     title: "Code Quiz",
-    image: "/public/img/Code Quiz.png",
+    image: "/public/img/Code-Quiz.png",
     repo:"https://github.com/pcjitsu/Code-Quiz",
     link:"https://pcjitsu.github.io/Code-Quiz/",
   },
@@ -50,11 +50,24 @@ const projects = [
 
 
 
+// export const Portfolio = () => {
+//   return (
+//     <div>
+//     <div>Portfolio</div>
+//     <Project projects={projects.map(project =>(Project()))} />
+//     </div>
+//   )
+// };
+
+
+
 export const Portfolio = () => {
   return (
     <div>
     <div>Portfolio</div>
-    <Project projects={projects} />
+    {projects.map(project => <Project project={project} /> )}
     </div>
   )
 };
+
+
