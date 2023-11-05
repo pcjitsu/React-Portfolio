@@ -4,7 +4,7 @@
 
 ## Description
 
-This project takes simple inputs and creates an SVG Files logo from it
+This project is my portfoli built with React
 
 ## Table of Contents
 
